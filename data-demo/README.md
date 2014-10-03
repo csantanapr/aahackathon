@@ -1,26 +1,33 @@
-Ionic App Base
-=====================
+## Demo for NCDevCon2014 Bluemix and Cordova using Cloud Data
 
-A starting project for Ionic that optionally supports using custom SCSS.
+### How to run demo
 
-## Using this project
+    npm install -g ionic cordova gulp
+    git clone http://github.com/csantanapr/ncdevcon
+    cd ncdevcon/bluelist-mobiledata-cordova
+    update www/bluelist.json with values from Bluemix.net
+    npm install
+    gulp install
+    ionic platform ios
+    ionic platform android
+    ionic emulate android
+    ionic emulate ios
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
+### How to recreate demo
 
-```bash
-$ npm install -g ionic
-```
-
-Then run:
-
-```bash
-$ ionic start myProject tabs
-```
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
-
+    npm install -g ionic cordova gulp
+    #App ID: com.ibm.bluemix.bluelist.cordova
+    #App Name: BlueList
+    #App Project: bluelist-mobiledata-cordova
+    #App Template: tabs
+    ionic start -a BlueList -i com.ibm.bluemix.bluelist.cordova bluelist-mobiledata-cordova tabs
+    cd bluelist-mobiledata-cordova/
+    npm install
+    gulp install
+    ionic platform ios
+    ionic platform android
+    ionic plugin add com.ibm.mobile.cordova.ibmbluemix
+    ionic plugin add com.ibm.mobile.cordova.ibmdata
+    ionic emulate android -l
+    ionic emulate ios -l
