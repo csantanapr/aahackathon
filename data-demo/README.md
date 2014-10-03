@@ -1,9 +1,9 @@
-## Demo for NCDevCon2014 Bluemix and Cordova using Cloud Data
+## Demo for AA Hackathon Bluemix and Cordova using Cloud Data
 
 ### How to run demo
 
     npm install -g ionic cordova gulp
-    git clone http://github.com/csantanapr/ncdevcon
+    git clone http://github.com/csantanapr/aahackathon
     cd ncdevcon/bluelist-mobiledata-cordova
     update www/bluelist.json with values from Bluemix.net
     npm install
