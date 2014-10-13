@@ -16,14 +16,14 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     $http.get("./bluelist.json").success(function(config) {
 
       // Initialise the SDK
-      IBMBluemix.hybrid.initialize(config).done(function() {
+      IBMBluemix.initialize(config).done(function() {
 
         // Let the user no they have logged in and can do some stuff if they require
-        console.log("Sucessful initialization with IBMBluemix Version : " + IBMBluemix.hybrid.getVersion());
+        console.log("Sucessful initialization with IBMBluemix Version : " + IBMBluemix.getVersion());
 
         // Initialize the Service
 
-        IBMData.hybrid.initializeService().then(function(data) {
+        IBMData.initializeService().then(function(data) {
 
           console.log("IBM Data Initialized");
             $rootScope.dataService = data;

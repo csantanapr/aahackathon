@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0-20140927-1116",
+    "version": "1.0.0-20141008-1346",
     "name": "com.ibm.mobile.cordova.ibmbluemix",
     "cordova_name": "IBMBluemix Hybrid",
     "description": "Cordova IBMBluemix Plugin",

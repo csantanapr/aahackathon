@@ -179,7 +179,7 @@ angular.module('starter.controllers', [])
 
     // Display information about the Configuration
     if (typeof IBMBluemix === "object") {
-        $scope.version = IBMBluemix.hybrid.getVersion();
+        $scope.version = IBMBluemix.getVersion();
     }
 
 });

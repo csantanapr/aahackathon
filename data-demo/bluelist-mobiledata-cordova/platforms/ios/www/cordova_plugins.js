@@ -49,8 +49,8 @@ module.exports.metadata =
     "com.ionic.keyboard": "1.0.3",
     "org.apache.cordova.console": "0.2.11",
     "org.apache.cordova.device": "0.2.12",
-    "com.ibm.mobile.cordova.ibmbluemix": "1.0.0-20140927-1116",
-    "com.ibm.mobile.cordova.ibmdata": "1.0.0-20140927-1116"
+    "com.ibm.mobile.cordova.ibmbluemix": "1.0.0-20141008-1346",
+    "com.ibm.mobile.cordova.ibmdata": "1.0.0-20141008-1346"
 }
 // BOTTOM OF METADATA
 });

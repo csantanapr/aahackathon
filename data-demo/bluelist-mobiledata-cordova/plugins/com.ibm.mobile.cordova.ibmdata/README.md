@@ -12,7 +12,7 @@ access to the following mobile services: Mobile Application Security, Push, and 
 The Mobile Cloud Services IBMDataSDK is a Cordova SDK you can use inside a Cordova
 or IBM Worklight application. The `IBMData` SDK manages persistance of data into IBM Bluemix. This service is backed with Cloudant and offers a robust way of managing data in the cloud.
 
-Version: 1.0.0-20140927-1116
+Version: 1.0.0-20141008-1346
 
 ##Installation
 The SDK may be installed either by downloading a [zip file](https://mbaas-catalog.ng.bluemix.net/sdk/ibm-bluemix-sdk-cordova.zip),

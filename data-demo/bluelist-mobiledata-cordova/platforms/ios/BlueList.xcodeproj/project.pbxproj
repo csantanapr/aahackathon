@@ -9,7 +9,6 @@
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
-		23D58916E6AF4B0CAD7E32B7 /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 000B0FC2108C41F891755F87 /* UIWebViewExtension.m */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
@@ -26,9 +25,7 @@
 		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
 		30A0434814DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434314DC770100060A13 /* Localizable.strings */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
-		4D1890CE90CE443E98A0DBE4 /* CDVIBMQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D50934F656DC4CE58673D3EA /* CDVIBMQuery.m */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
-		771B7D03D2974030900CCE11 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC33406A6DE49FDA9A4DB5B /* libsqlite3.dylib */; };
 		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
 		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
 		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
@@ -39,15 +36,18 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
-		98D7FC1F4605400C828ADB4A /* CDVIBMData.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EA1CDB1ED44BDFB853729B /* CDVIBMData.m */; };
-		99A26858A0174636B279B4B3 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5540F2E639C847079B5F581D /* CDVLogger.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		D949B76188EA4036B03D8171 /* IBMFileSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C825BEC0ECE474EB45B6DEF /* IBMFileSync.framework */; };
-		DADFC5EF2347418C8A8FF8A6 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD37E97CD07447DBC8D57E9 /* IonicKeyboard.m */; };
-		E34C3B74E79D4D6794C11097 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1157F886BA684D2D828D878E /* CDVDevice.m */; };
-		E879F46E124E445D9C62BE9A /* CDVIBMBluemix.m in Sources */ = {isa = PBXBuildFile; fileRef = 8992D9160DF64C69BA342ABB /* CDVIBMBluemix.m */; };
-		F92FBD4D05A54D9792567A29 /* IBMData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC60140C14D44790B142FD21 /* IBMData.framework */; };
-		FDBA3084941A4DC39C6E71EA /* IBMBluemix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AAC60C1E9441CCBD978E4F /* IBMBluemix.framework */; };
+		23582627F1084BBA9F192D3A /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBDC631B5FB4C7B8503950F /* IonicKeyboard.m */; };
+		02405BF2C2C14C98A2E7914A /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8ABF15F54340828A43FA7F /* UIWebViewExtension.m */; };
+		5F8A8FE62B1F4E5B923FCA02 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DE414EA1CDCA4C2AAEAB8CBC /* CDVLogger.m */; };
+		7279069544EE4EE98066E2AC /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AF37BAFA24F8EA0FDA5CF /* CDVDevice.m */; };
+		83A3F60F613649E1926D6D64 /* CDVIBMBluemix.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B5745701F49849D861179 /* CDVIBMBluemix.m */; };
+		511BC57D3E134A9F872099C3 /* IBMBluemix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6638204A1834B389513C374 /* IBMBluemix.framework */; };
+		F17AF9D8424B4BA6837975C1 /* CDVIBMData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340AF36871443F487D2448E /* CDVIBMData.m */; };
+		D5FDFF99469F4E0FB996650D /* CDVIBMQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B274FD99AE049A4B6F09B18 /* CDVIBMQuery.m */; };
+		B4995366DC0C45D194426D72 /* IBMData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7507F5A6B1475A9E75DC31 /* IBMData.framework */; };
+		F11E3CFC2BD64BE1BB2978FA /* IBMFileSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C69C40E6FC94DEFBE7B5C0D /* IBMFileSync.framework */; };
+		62BACFFAB5114A8AB1569D35 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A9F760FD204282BEAAE31B /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,16 +68,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000B0FC2108C41F891755F87 /* UIWebViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIWebViewExtension.m; path = com.ionic.keyboard/UIWebViewExtension.m; sourceTree = "<group>"; };
-		1157F886BA684D2D828D878E /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = org.apache.cordova.device/CDVDevice.m; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* BlueList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* BlueList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlueList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -96,14 +94,7 @@
 		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* BlueList-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlueList-Prefix.pch"; sourceTree = "<group>"; };
-		5001804F4B824028AC134B49 /* UIWebViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIWebViewExtension.h; path = com.ionic.keyboard/UIWebViewExtension.h; sourceTree = "<group>"; };
-		5540F2E639C847079B5F581D /* CDVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = org.apache.cordova.console/CDVLogger.m; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		5C825BEC0ECE474EB45B6DEF /* IBMFileSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMFileSync.framework; path = BlueList/Plugins/com.ibm.mobile.cordova.ibmdata/IBMFileSync.framework; sourceTree = "<group>"; };
-		691AAF96E0724A94BA1948D0 /* CDVIBMData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVIBMData.h; path = com.ibm.mobile.cordova.ibmdata/CDVIBMData.h; sourceTree = "<group>"; };
-		6AC33406A6DE49FDA9A4DB5B /* libsqlite3.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		75AAC60C1E9441CCBD978E4F /* IBMBluemix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMBluemix.framework; path = BlueList/Plugins/com.ibm.mobile.cordova.ibmbluemix/IBMBluemix.framework; sourceTree = "<group>"; };
-		77EA1CDB1ED44BDFB853729B /* CDVIBMData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVIBMData.m; path = com.ibm.mobile.cordova.ibmdata/CDVIBMData.m; sourceTree = "<group>"; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -114,21 +105,30 @@
 		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
-		8992D9160DF64C69BA342ABB /* CDVIBMBluemix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVIBMBluemix.m; path = com.ibm.mobile.cordova.ibmbluemix/CDVIBMBluemix.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* BlueList-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BlueList-Info.plist"; path = "../BlueList-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		B4740EAB0B764B2CA3BC4B11 /* CDVIBMBluemix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVIBMBluemix.h; path = com.ibm.mobile.cordova.ibmbluemix/CDVIBMBluemix.h; sourceTree = "<group>"; };
-		C2597078F8F6477594214485 /* CDVIBMQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVIBMQuery.h; path = com.ibm.mobile.cordova.ibmdata/CDVIBMQuery.h; sourceTree = "<group>"; };
-		C309CDD42E78461E996B588A /* CDVLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLogger.h; path = org.apache.cordova.console/CDVLogger.h; sourceTree = "<group>"; };
-		CCD37E97CD07447DBC8D57E9 /* IonicKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicKeyboard.m; path = com.ionic.keyboard/IonicKeyboard.m; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		D50934F656DC4CE58673D3EA /* CDVIBMQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVIBMQuery.m; path = com.ibm.mobile.cordova.ibmdata/CDVIBMQuery.m; sourceTree = "<group>"; };
-		DC60140C14D44790B142FD21 /* IBMData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMData.framework; path = BlueList/Plugins/com.ibm.mobile.cordova.ibmdata/IBMData.framework; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		ED2D9D699C0E4C919DA15D10 /* IonicKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicKeyboard.h; path = com.ionic.keyboard/IonicKeyboard.h; sourceTree = "<group>"; };
-		F5B93AA0C62948E2B0AEA54C /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = org.apache.cordova.device/CDVDevice.h; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = BlueList/config.xml; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "BlueList/config.xml"; sourceTree = "<group>"; };
+		9FBDC631B5FB4C7B8503950F /* IonicKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "IonicKeyboard.m"; path = "com.ionic.keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6D8ABF15F54340828A43FA7F /* UIWebViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWebViewExtension.m"; path = "com.ionic.keyboard/UIWebViewExtension.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F7811FF8BD294247B0F4E5A0 /* IonicKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IonicKeyboard.h"; path = "com.ionic.keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8A8C458B6CE34F0FB537D760 /* UIWebViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIWebViewExtension.h"; path = "com.ionic.keyboard/UIWebViewExtension.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DE414EA1CDCA4C2AAEAB8CBC /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "org.apache.cordova.console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		49E1C418D1D444FCB6871A2C /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E86AF37BAFA24F8EA0FDA5CF /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1BAB3FB09C204273B553E4EF /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		507B5745701F49849D861179 /* CDVIBMBluemix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVIBMBluemix.m"; path = "com.ibm.mobile.cordova.ibmbluemix/CDVIBMBluemix.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		89AB49BF53CF42C782718219 /* CDVIBMBluemix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVIBMBluemix.h"; path = "com.ibm.mobile.cordova.ibmbluemix/CDVIBMBluemix.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F6638204A1834B389513C374 /* IBMBluemix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "IBMBluemix.framework"; path = "BlueList/Plugins/com.ibm.mobile.cordova.ibmbluemix/IBMBluemix.framework"; sourceTree = "<group>"; };
+		1340AF36871443F487D2448E /* CDVIBMData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVIBMData.m"; path = "com.ibm.mobile.cordova.ibmdata/CDVIBMData.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3B274FD99AE049A4B6F09B18 /* CDVIBMQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVIBMQuery.m"; path = "com.ibm.mobile.cordova.ibmdata/CDVIBMQuery.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		2A93FD09078B47DDB18EE8F5 /* CDVIBMData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVIBMData.h"; path = "com.ibm.mobile.cordova.ibmdata/CDVIBMData.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F9F2EDC1089E4B97880C9A9B /* CDVIBMQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVIBMQuery.h"; path = "com.ibm.mobile.cordova.ibmdata/CDVIBMQuery.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CD7507F5A6B1475A9E75DC31 /* IBMData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "IBMData.framework"; path = "BlueList/Plugins/com.ibm.mobile.cordova.ibmdata/IBMData.framework"; sourceTree = "<group>"; };
+		4C69C40E6FC94DEFBE7B5C0D /* IBMFileSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "IBMFileSync.framework"; path = "BlueList/Plugins/com.ibm.mobile.cordova.ibmdata/IBMFileSync.framework"; sourceTree = "<group>"; };
+		47A9F760FD204282BEAAE31B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,10 +140,10 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				FDBA3084941A4DC39C6E71EA /* IBMBluemix.framework in Frameworks */,
-				F92FBD4D05A54D9792567A29 /* IBMData.framework in Frameworks */,
-				D949B76188EA4036B03D8171 /* IBMFileSync.framework in Frameworks */,
-				771B7D03D2974030900CCE11 /* libsqlite3.dylib in Frameworks */,
+				511BC57D3E134A9F872099C3 /* IBMBluemix.framework in Frameworks */,
+				B4995366DC0C45D194426D72 /* IBMData.framework in Frameworks */,
+				F11E3CFC2BD64BE1BB2978FA /* IBMFileSync.framework in Frameworks */,
+				62BACFFAB5114A8AB1569D35 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +160,7 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = BlueList/Classes;
+			path = "BlueList/Classes";
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -212,7 +212,7 @@
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = BlueList;
+			path = "BlueList";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -227,7 +227,7 @@
 				8D1107310486CEB800E47090 /* BlueList-Info.plist */,
 			);
 			name = Resources;
-			path = BlueList/Resources;
+			path = "BlueList/Resources";
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -236,10 +236,10 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				75AAC60C1E9441CCBD978E4F /* IBMBluemix.framework */,
-				DC60140C14D44790B142FD21 /* IBMData.framework */,
-				5C825BEC0ECE474EB45B6DEF /* IBMFileSync.framework */,
-				6AC33406A6DE49FDA9A4DB5B /* libsqlite3.dylib */,
+				F6638204A1834B389513C374 /* IBMBluemix.framework */,
+				CD7507F5A6B1475A9E75DC31 /* IBMData.framework */,
+				4C69C40E6FC94DEFBE7B5C0D /* IBMFileSync.framework */,
+				47A9F760FD204282BEAAE31B /* libsqlite3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -255,23 +255,23 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				CCD37E97CD07447DBC8D57E9 /* IonicKeyboard.m */,
-				000B0FC2108C41F891755F87 /* UIWebViewExtension.m */,
-				ED2D9D699C0E4C919DA15D10 /* IonicKeyboard.h */,
-				5001804F4B824028AC134B49 /* UIWebViewExtension.h */,
-				5540F2E639C847079B5F581D /* CDVLogger.m */,
-				C309CDD42E78461E996B588A /* CDVLogger.h */,
-				1157F886BA684D2D828D878E /* CDVDevice.m */,
-				F5B93AA0C62948E2B0AEA54C /* CDVDevice.h */,
-				8992D9160DF64C69BA342ABB /* CDVIBMBluemix.m */,
-				B4740EAB0B764B2CA3BC4B11 /* CDVIBMBluemix.h */,
-				77EA1CDB1ED44BDFB853729B /* CDVIBMData.m */,
-				D50934F656DC4CE58673D3EA /* CDVIBMQuery.m */,
-				691AAF96E0724A94BA1948D0 /* CDVIBMData.h */,
-				C2597078F8F6477594214485 /* CDVIBMQuery.h */,
+				9FBDC631B5FB4C7B8503950F /* IonicKeyboard.m */,
+				6D8ABF15F54340828A43FA7F /* UIWebViewExtension.m */,
+				F7811FF8BD294247B0F4E5A0 /* IonicKeyboard.h */,
+				8A8C458B6CE34F0FB537D760 /* UIWebViewExtension.h */,
+				DE414EA1CDCA4C2AAEAB8CBC /* CDVLogger.m */,
+				49E1C418D1D444FCB6871A2C /* CDVLogger.h */,
+				E86AF37BAFA24F8EA0FDA5CF /* CDVDevice.m */,
+				1BAB3FB09C204273B553E4EF /* CDVDevice.h */,
+				507B5745701F49849D861179 /* CDVIBMBluemix.m */,
+				89AB49BF53CF42C782718219 /* CDVIBMBluemix.h */,
+				1340AF36871443F487D2448E /* CDVIBMData.m */,
+				3B274FD99AE049A4B6F09B18 /* CDVIBMQuery.m */,
+				2A93FD09078B47DDB18EE8F5 /* CDVIBMData.h */,
+				F9F2EDC1089E4B97880C9A9B /* CDVIBMQuery.h */,
 			);
 			name = Plugins;
-			path = BlueList/Plugins;
+			path = "BlueList/Plugins";
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -351,8 +351,8 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = BlueList;
-			productName = BlueList;
+			name = "BlueList";
+			productName = "BlueList";
 			productReference = 1D6058910D05DD3D006BFB54 /* BlueList.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -363,13 +363,8 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 510;
-				TargetAttributes = {
-					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 6FAD38Q989;
-					};
-				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BlueList" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -468,13 +463,13 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				DADFC5EF2347418C8A8FF8A6 /* IonicKeyboard.m in Sources */,
-				23D58916E6AF4B0CAD7E32B7 /* UIWebViewExtension.m in Sources */,
-				99A26858A0174636B279B4B3 /* CDVLogger.m in Sources */,
-				E34C3B74E79D4D6794C11097 /* CDVDevice.m in Sources */,
-				E879F46E124E445D9C62BE9A /* CDVIBMBluemix.m in Sources */,
-				98D7FC1F4605400C828ADB4A /* CDVIBMData.m in Sources */,
-				4D1890CE90CE443E98A0DBE4 /* CDVIBMQuery.m in Sources */,
+				23582627F1084BBA9F192D3A /* IonicKeyboard.m in Sources */,
+				02405BF2C2C14C98A2E7914A /* UIWebViewExtension.m in Sources */,
+				5F8A8FE62B1F4E5B923FCA02 /* CDVLogger.m in Sources */,
+				7279069544EE4EE98066E2AC /* CDVDevice.m in Sources */,
+				83A3F60F613649E1926D6D64 /* CDVIBMBluemix.m in Sources */,
+				F17AF9D8424B4BA6837975C1 /* CDVIBMData.m in Sources */,
+				D5FDFF99469F4E0FB996650D /* CDVIBMQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,15 +524,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmbluemix\"",
-					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmdata\"",
-					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmdata\"",
-				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -560,9 +547,14 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = BlueList;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = "BlueList";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmbluemix\"",
+					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmdata\"",
+					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmdata\"",
+				);
 			};
 			name = Debug;
 		};
@@ -571,15 +563,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmbluemix\"",
-					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmdata\"",
-					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmdata\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueList/BlueList-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -600,9 +584,14 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = BlueList;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = "BlueList";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmbluemix\"",
+					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmdata\"",
+					"\"BlueList/Plugins/com.ibm.mobile.cordova.ibmdata\"",
+				);
 			};
 			name = Release;
 		};
@@ -709,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BlueList" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
