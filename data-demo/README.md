@@ -26,28 +26,21 @@
     "applicationSecret": "111222333",
     "applicationRoute": "something.mybluemix.net"
 	}
-## 5 Build and Run
+
+## 5 Add Platforms and Plugins
+    
+    ionic platform [ios | android ]
+    or
+    cordova platform add [ios | android]
+    
+    [ionic | cordova] plugin add [com.ibm.mobile.cordova.ibmbluemix | https://hub.jazz.net/git/bluemixmobilesdk/ibmbluemix-cordova]
+        
+    [ionic | cordova] plugin add [com.ibm.mobile.cordova.ibmdata | https://hub.jazz.net/git/bluemixmobilesdk/ibmdata-cordova]
+
+    
+## 6 Build and Run
     
     ionic build
-    ionic emulate android
+    ionic run android
     open platforms/ios/BlueList.xcodeproj
 
-
-### (Optional) How to recreate demo
-
-    npm install -g ionic cordova gulp
-    #App ID: com.ibm.bluemix.bluelist.cordova
-    #App Name: BlueList
-    #App Project: bluelist-mobiledata-cordova
-    #App Template: tabs
-    ionic start -a BlueList -i com.ibm.bluemix.bluelist.cordova bluelist-mobiledata-cordova tabs
-    cd bluelist-mobiledata-cordova/
-    cp -r 
-    npm install
-    gulp install
-    ionic platform ios
-    ionic platform android
-    cordova plugin add https://hub.jazz.net/git/bluemixmobilesdk/ibmbluemix-cordova
-    cordova plugin add https://hub.jazz.net/git/bluemixmobilesdk/ibmdata-cordova
-    ionic emulate android -l
-    ionic emulate ios -l
