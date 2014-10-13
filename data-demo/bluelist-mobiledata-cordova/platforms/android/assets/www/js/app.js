@@ -13,37 +13,28 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     // for form inputs)
     console.log('This is when all Cordova Plugins are ready');
     // Lets load the Configuration from the bluelist.json file
-    $http.get("./bluelist.json").success(function(config) {
+    $http.get("./bluelist.json").success(function(setup) {
 
       // Initialise the SDK
-      IBMBluemix.initialize(config).done(function() {
 
-        // Let the user no they have logged in and can do some stuff if they require
-        console.log("Sucessful initialization with IBMBluemix Version : " + IBMBluemix.getVersion());
+      // Initialize the IBM Bluemix SDK with the application parameters.
+      IBMBluemix.initialize(setup).then(function(config){
 
-        // Initialize the Service
+        return IBMData.initializeService();
 
-        IBMData.initializeService().then(function(data) {
+      }).then(function(data){
 
-          console.log("IBM Data Initialized");
-            $rootScope.dataService = data;
-            if($rootScope.onRefresh){
-              $rootScope.onRefresh();
-            }
+        // Use the Data Services
+        console.log("IBM Data Initialized");
+          $rootScope.dataService = data;
+          if($rootScope.onRefresh){
+            $rootScope.onRefresh();
+          }
 
-          }).
-          catch (function(err) {
-              console.error("IBM Data initialization failed", err);
-          });
-
-        // Let the user no they have logged in and can do some stuff if they require
-        //console.log("Sucessful initialization Data Services ");
-
-      }, function(response) {
-        // Error
-        console.log("Error:", response);
-
+      }).catch(function(err){
+        IBMBluemix.getLogger().error("Error intializaing the Data SDK");
       });
+
 
     });
 

@@ -27,7 +27,7 @@
     gulp install
     ionic platform ios
     ionic platform android
-    ionic plugin add com.ibm.mobile.cordova.ibmbluemix
-    ionic plugin add com.ibm.mobile.cordova.ibmdata
+    cordova plugin add https://hub.jazz.net/git/bluemixmobilesdk/ibmbluemix-cordova
+    cordova plugin add https://hub.jazz.net/git/bluemixmobilesdk/ibmdata-cordova
     ionic emulate android -l
     ionic emulate ios -l
