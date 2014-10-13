@@ -41,8 +41,6 @@
 		02405BF2C2C14C98A2E7914A /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8ABF15F54340828A43FA7F /* UIWebViewExtension.m */; };
 		5F8A8FE62B1F4E5B923FCA02 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DE414EA1CDCA4C2AAEAB8CBC /* CDVLogger.m */; };
 		7279069544EE4EE98066E2AC /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AF37BAFA24F8EA0FDA5CF /* CDVDevice.m */; };
-		A41C4193BCEB455785F024B7 /* CDVIBMBluemix.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8E2D1AE5424B15B4970030 /* CDVIBMBluemix.m */; };
-		BE9E719BAEE148CCAC7DC08C /* IBMBluemix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B74FFEA05743FF9180D0EA /* IBMBluemix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,9 +112,6 @@
 		49E1C418D1D444FCB6871A2C /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		E86AF37BAFA24F8EA0FDA5CF /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		1BAB3FB09C204273B553E4EF /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		FD8E2D1AE5424B15B4970030 /* CDVIBMBluemix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVIBMBluemix.m"; path = "com.ibm.mobile.cordova.ibmbluemix/CDVIBMBluemix.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		1BEE063D6D5441189C934A74 /* CDVIBMBluemix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVIBMBluemix.h"; path = "com.ibm.mobile.cordova.ibmbluemix/CDVIBMBluemix.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		47B74FFEA05743FF9180D0EA /* IBMBluemix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "IBMBluemix.framework"; path = "BlueList/Plugins/com.ibm.mobile.cordova.ibmbluemix/IBMBluemix.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +123,6 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				BE9E719BAEE148CCAC7DC08C /* IBMBluemix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +215,6 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				47B74FFEA05743FF9180D0EA /* IBMBluemix.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -245,8 +238,6 @@
 				49E1C418D1D444FCB6871A2C /* CDVLogger.h */,
 				E86AF37BAFA24F8EA0FDA5CF /* CDVDevice.m */,
 				1BAB3FB09C204273B553E4EF /* CDVDevice.h */,
-				FD8E2D1AE5424B15B4970030 /* CDVIBMBluemix.m */,
-				1BEE063D6D5441189C934A74 /* CDVIBMBluemix.h */,
 			);
 			name = Plugins;
 			path = "BlueList/Plugins";
@@ -445,7 +436,6 @@
 				02405BF2C2C14C98A2E7914A /* UIWebViewExtension.m in Sources */,
 				5F8A8FE62B1F4E5B923FCA02 /* CDVLogger.m in Sources */,
 				7279069544EE4EE98066E2AC /* CDVDevice.m in Sources */,
-				A41C4193BCEB455785F024B7 /* CDVIBMBluemix.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

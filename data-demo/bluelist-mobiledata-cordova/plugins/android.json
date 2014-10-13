@@ -15,26 +15,13 @@
                         {
                             "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"IBMBluemixHybrid\"><param name=\"android-package\" value=\"com.ibm.mobile.services.cordova.core.CDVIBMBluemix\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
             },
             "AndroidManifest.xml": {
                 "parents": {
-                    "/*": [
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
-                            "count": 1
-                        }
-                    ]
+                    "/*": []
                 }
             }
         }
@@ -47,9 +34,6 @@
             "PACKAGE_NAME": "com.ibm.bluemix.bluelist.cordova"
         },
         "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.ibm.bluemix.bluelist.cordova"
-        },
-        "com.ibm.mobile.cordova.ibmbluemix": {
             "PACKAGE_NAME": "com.ibm.bluemix.bluelist.cordova"
         }
     },
