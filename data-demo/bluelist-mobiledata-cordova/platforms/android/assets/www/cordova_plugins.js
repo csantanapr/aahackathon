@@ -20,13 +20,6 @@ module.exports = [
         "clobbers": [
             "IBMBluemix.hybrid"
         ]
-    },
-    {
-        "file": "plugins/com.ibm.mobile.cordova.ibmdata/www/IBMDataHybrid.js",
-        "id": "com.ibm.mobile.cordova.ibmdata.hybrid",
-        "clobbers": [
-            "IBMData.hybrid"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -35,8 +28,7 @@ module.exports.metadata =
     "com.ionic.keyboard": "1.0.3",
     "org.apache.cordova.console": "0.2.11",
     "org.apache.cordova.device": "0.2.12",
-    "com.ibm.mobile.cordova.ibmbluemix": "1.0.0-20141008-1346",
-    "com.ibm.mobile.cordova.ibmdata": "1.0.0-20141008-1346"
+    "com.ibm.mobile.cordova.ibmbluemix": "1.0.0-20141008-1346"
 }
 // BOTTOM OF METADATA
 });

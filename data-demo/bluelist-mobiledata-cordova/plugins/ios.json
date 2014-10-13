@@ -23,26 +23,13 @@
                         {
                             "xml": "<feature name=\"IBMBluemixHybrid\"><param name=\"ios-package\" value=\"CDVIBMBluemix\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"IBMDataHybrid\"><param name=\"ios-package\" value=\"CDVIBMData\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"IBMQueryHybrid\"><param name=\"ios-package\" value=\"CDVIBMQuery\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
             },
             "framework": {
                 "parents": {
-                    "libsqlite3.dylib": [
-                        {
-                            "xml": "false",
-                            "count": 1
-                        }
-                    ]
+                    "libsqlite3.dylib": []
                 }
             }
         }
@@ -58,9 +45,6 @@
             "PACKAGE_NAME": "com.ibm.bluemix.bluelist.cordova"
         },
         "com.ibm.mobile.cordova.ibmbluemix": {
-            "PACKAGE_NAME": "com.ibm.bluemix.bluelist.cordova"
-        },
-        "com.ibm.mobile.cordova.ibmdata": {
             "PACKAGE_NAME": "com.ibm.bluemix.bluelist.cordova"
         }
     },

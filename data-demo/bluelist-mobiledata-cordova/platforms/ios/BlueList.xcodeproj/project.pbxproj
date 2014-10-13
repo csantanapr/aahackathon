@@ -43,11 +43,6 @@
 		7279069544EE4EE98066E2AC /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AF37BAFA24F8EA0FDA5CF /* CDVDevice.m */; };
 		A41C4193BCEB455785F024B7 /* CDVIBMBluemix.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8E2D1AE5424B15B4970030 /* CDVIBMBluemix.m */; };
 		BE9E719BAEE148CCAC7DC08C /* IBMBluemix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B74FFEA05743FF9180D0EA /* IBMBluemix.framework */; };
-		E19C10232AC045B4A3D4E804 /* CDVIBMData.m in Sources */ = {isa = PBXBuildFile; fileRef = C221CF37C66045B4A355FE9D /* CDVIBMData.m */; };
-		25DC46D935AA4AA6931B1503 /* CDVIBMQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A93F85EA746BBA9B63545 /* CDVIBMQuery.m */; };
-		564B5E9EE82548168EBD3741 /* IBMData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45E0ED66A094F10A4B04DB8 /* IBMData.framework */; };
-		A6E7B2A780BA4E0CA9FE0570 /* IBMFileSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46982247B8844C9E9E95356E /* IBMFileSync.framework */; };
-		772C665A3BC54670B33FB2F8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9A836336B0443D8762A82A /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,13 +117,6 @@
 		FD8E2D1AE5424B15B4970030 /* CDVIBMBluemix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVIBMBluemix.m"; path = "com.ibm.mobile.cordova.ibmbluemix/CDVIBMBluemix.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		1BEE063D6D5441189C934A74 /* CDVIBMBluemix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVIBMBluemix.h"; path = "com.ibm.mobile.cordova.ibmbluemix/CDVIBMBluemix.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		47B74FFEA05743FF9180D0EA /* IBMBluemix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "IBMBluemix.framework"; path = "BlueList/Plugins/com.ibm.mobile.cordova.ibmbluemix/IBMBluemix.framework"; sourceTree = "<group>"; };
-		C221CF37C66045B4A355FE9D /* CDVIBMData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVIBMData.m"; path = "com.ibm.mobile.cordova.ibmdata/CDVIBMData.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		5A5A93F85EA746BBA9B63545 /* CDVIBMQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVIBMQuery.m"; path = "com.ibm.mobile.cordova.ibmdata/CDVIBMQuery.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		114EE87E4D184F72AC2A44A8 /* CDVIBMData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVIBMData.h"; path = "com.ibm.mobile.cordova.ibmdata/CDVIBMData.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		FE20B92B5D9D411A8ED2C263 /* CDVIBMQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVIBMQuery.h"; path = "com.ibm.mobile.cordova.ibmdata/CDVIBMQuery.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		F45E0ED66A094F10A4B04DB8 /* IBMData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "IBMData.framework"; path = "BlueList/Plugins/com.ibm.mobile.cordova.ibmdata/IBMData.framework"; sourceTree = "<group>"; };
-		46982247B8844C9E9E95356E /* IBMFileSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "IBMFileSync.framework"; path = "BlueList/Plugins/com.ibm.mobile.cordova.ibmdata/IBMFileSync.framework"; sourceTree = "<group>"; };
-		7E9A836336B0443D8762A82A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +129,6 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				BE9E719BAEE148CCAC7DC08C /* IBMBluemix.framework in Frameworks */,
-				564B5E9EE82548168EBD3741 /* IBMData.framework in Frameworks */,
-				A6E7B2A780BA4E0CA9FE0570 /* IBMFileSync.framework in Frameworks */,
-				772C665A3BC54670B33FB2F8 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +222,6 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
 				47B74FFEA05743FF9180D0EA /* IBMBluemix.framework */,
-				F45E0ED66A094F10A4B04DB8 /* IBMData.framework */,
-				46982247B8844C9E9E95356E /* IBMFileSync.framework */,
-				7E9A836336B0443D8762A82A /* libsqlite3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -265,10 +247,6 @@
 				1BAB3FB09C204273B553E4EF /* CDVDevice.h */,
 				FD8E2D1AE5424B15B4970030 /* CDVIBMBluemix.m */,
 				1BEE063D6D5441189C934A74 /* CDVIBMBluemix.h */,
-				C221CF37C66045B4A355FE9D /* CDVIBMData.m */,
-				5A5A93F85EA746BBA9B63545 /* CDVIBMQuery.m */,
-				114EE87E4D184F72AC2A44A8 /* CDVIBMData.h */,
-				FE20B92B5D9D411A8ED2C263 /* CDVIBMQuery.h */,
 			);
 			name = Plugins;
 			path = "BlueList/Plugins";
@@ -468,8 +446,6 @@
 				5F8A8FE62B1F4E5B923FCA02 /* CDVLogger.m in Sources */,
 				7279069544EE4EE98066E2AC /* CDVDevice.m in Sources */,
 				A41C4193BCEB455785F024B7 /* CDVIBMBluemix.m in Sources */,
-				E19C10232AC045B4A3D4E804 /* CDVIBMData.m in Sources */,
-				25DC46D935AA4AA6931B1503 /* CDVIBMQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
