@@ -13,7 +13,7 @@
 ## 3 Get the Frontend code    
     
     git clone http://github.com/csantanapr/aahackathon
-    cd aahackathon/bluelist-mobiledata-cordova
+    cd aahackathon/data-demo/bluelist-mobiledata-cordova/
     npm install
     gulp install
     
