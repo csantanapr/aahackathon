@@ -1,6 +1,6 @@
 # Demo Bluemix and Cordova using Cloud Data
 
-## 1 Setup Backend 
+## 1 Setup Mobile Data Service Backend 
 - Register on [Bluemix.net](http://bluemix.net)
 - Create Backend App with Mobile Cloud Starter boilerplate
 
