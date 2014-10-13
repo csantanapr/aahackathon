@@ -1,20 +1,39 @@
-## Demo for AA Hackathon Bluemix and Cordova using Cloud Data
+# Demo Bluemix and Cordova using Cloud Data
 
-### How to run demo
+## 1 Setup Backend 
+- Register on [Bluemix.net](http://bluemix.net)
+- Create Backend App with Mobile Cloud Starter boilerplate
 
-    npm install -g ionic cordova gulp
+## 2 Install Software
+- Mobile Platforms SDKs (Xcode, Android SDK)
+- Node, NPM, Git, Ant
+- npm install -g ionic cordova gulp
+    
+    
+## 3 Get the Frontend code    
+    
     git clone http://github.com/csantanapr/aahackathon
-    cd ncdevcon/bluelist-mobiledata-cordova
-    update www/bluelist.json with values from Bluemix.net
+    cd aahackathon/bluelist-mobiledata-cordova
     npm install
     gulp install
-    ionic platform ios
-    ionic platform android
+    
+## 4 Setup Frontend with Backend settings    
+    
+    update www/bluelist.json with values from your Mobile Cloud on Bluemix.net
+    
+    {
+    "applicationId": "0000111112222",
+    "applicationSecret": "111222333",
+    "applicationRoute": "something.mybluemix.net"
+	}
+## 5 Build and Run
+    
+    ionic build
     ionic emulate android
-    ionic emulate ios
+    open platforms/ios/BlueList.xcodeproj
 
 
-### How to recreate demo
+### (Optional) How to recreate demo
 
     npm install -g ionic cordova gulp
     #App ID: com.ibm.bluemix.bluelist.cordova
@@ -23,6 +42,7 @@
     #App Template: tabs
     ionic start -a BlueList -i com.ibm.bluemix.bluelist.cordova bluelist-mobiledata-cordova tabs
     cd bluelist-mobiledata-cordova/
+    cp -r 
     npm install
     gulp install
     ionic platform ios
