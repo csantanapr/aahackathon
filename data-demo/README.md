@@ -1,4 +1,4 @@
-# Demo Bluemix and Cordova using Cloud Data
+# Demo Bluemix and Cordova using Mobile Data
 
 ## Demo Turorial Video: [http://youtu.be/cDM1iWwACCQ](youtu.be/cDM1iWwACCQ)
 
