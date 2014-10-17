@@ -1,4 +1,5 @@
-# Bluemix and Cordova Demos for AA Hackathon 2014 (Oct 24-25)
+# Bluemix Mobile Demos for Hackathons
 
-## How to do Mobile Data with Bluemix and Apache Cordova
-  [data-demo/README.md](data-demo/README.md)
+## Watson Mobile Data Tutorial using Bluemix
+### Code: [data-demo/README.md](data-demo/README.md)
+### Demo Turorial Video: [http://youtu.be/cDM1iWwACCQ](youtu.be/cDM1iWwACCQ)

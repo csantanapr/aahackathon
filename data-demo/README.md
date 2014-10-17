@@ -1,25 +1,49 @@
 # Demo Bluemix and Cordova using Cloud Data
 
-## 1 Setup Mobile Data Service Backend 
-- Register on [Bluemix.net](http://bluemix.net)
-- Create Backend App with Mobile Cloud Starter boilerplate
+## Demo Turorial Video: [http://youtu.be/cDM1iWwACCQ](youtu.be/cDM1iWwACCQ)
 
-## 2 Install Software
-- Mobile Platforms SDKs (Xcode, Android SDK)
-- Node, NPM, Git, Ant
-- npm install -g ionic cordova gulp
+
+## 1 Build and Deploy Watson Java Backend
+	- [https://github.com/jsloyer/talent-manager-complete]()
+   
+## 2 Configure Watson Java to access Mobile Data
+	- Edit src/com/ibm/personafusion/Config.java
+
+	public static final String MOBILE_DATA_APP_ID = "xxxx";
+    public static final String MOBILE_DATA_APP_SECRET ="xxxx";
+
+## 2 Setup Mobile Data Service Backend 
+	- Register on [Bluemix.net](http://bluemix.net)
+	- Create Backend App with Mobile Cloud Starter boilerplate
+
+## 3 Install Software
+	### - Mobile Platforms SDKs (Xcode, Android SDK)
+
+	#### - Node:
+ 	- [nodejs.org](http://nodejs.org)
+
+	#### - Android SDK Tools:
+ 
+ 	- [bit.ly/androidwinsdk](http://bit.ly/androidwinsdk)
+ 	- [bit.ly/androidmacsdk](http://bit.ly/androidmacsdk)
+
+	#### - Apache Ant:
+ 	- [http://bit.ly/antbintool](bit.ly/antbintool)
+
+	### - Node, NPM, Git, Ant
+	- npm install -g ionic cordova gulp
     
     
-## 3 Get the Frontend code    
+## 4 Clone or download the Frontend Mobile code    
     
     git clone http://github.com/csantanapr/aahackathon
     cd aahackathon/data-demo/bluelist-mobiledata-cordova/
     npm install
     gulp install
     
-## 4 Setup Frontend with Backend settings    
+## 5 Setup Frontend with Backend settings    
     
-    update www/bluelist.json with values from your Mobile Cloud on Bluemix.net
+    edit www/bluelist.json with values from your Mobile Cloud on Bluemix.net
     
     {
     "applicationId": "0000111112222",
@@ -27,7 +51,7 @@
     "applicationRoute": "something.mybluemix.net"
 	}
 
-## 5 Add Platforms and Plugins
+## 6 Add Cordova Platforms and Plugins
     
     ionic platform [ios | android ]
     or
@@ -38,7 +62,7 @@
     [ionic | cordova] plugin add [com.ibm.mobile.cordova.ibmdata | https://hub.jazz.net/git/bluemixmobilesdk/ibmdata-cordova]
 
     
-## 6 Build and Run
+## 7 Build and Run Mobile APp
     
     ionic build
     ionic run android
