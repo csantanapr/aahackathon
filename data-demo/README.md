@@ -17,21 +17,20 @@
 	- Create Backend App with Mobile Cloud Starter boilerplate
 
 ## 3 Install Software
-	### - Mobile Platforms SDKs (Xcode, Android SDK)
 
-	#### - Node:
- 	- [nodejs.org](http://nodejs.org)
+### Node: 
+- [nodejs.org](http://nodejs.org)
 
-	#### - Android SDK Tools:
- 
- 	- [bit.ly/androidwinsdk](http://bit.ly/androidwinsdk)
- 	- [bit.ly/androidmacsdk](http://bit.ly/androidmacsdk)
+### Android SDK Tools:
+ - [bit.ly/androidwinsdk](http://bit.ly/androidwinsdk)
+ - [bit.ly/androidmacsdk](http://bit.ly/androidmacsdk)
 
-	#### - Apache Ant:
- 	- [http://bit.ly/antbintool](bit.ly/antbintool)
+### - Apache Ant:
+ - [http://bit.ly/antbintool](bit.ly/antbintool)
 
-	### - Node, NPM, Git, Ant
-	- npm install -g ionic cordova gulp
+### - Install CLIs
+
+	npm install -g ionic cordova gulp
     
     
 ## 4 Clone or download the Frontend Mobile code    
